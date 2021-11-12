@@ -65,7 +65,6 @@ const fillPlates = (offers) => {
 //MAIN PROGRAM
 //------------
 window.onload = () => {
-    console.log(typeof images[0]);
     const GITHUB = document.createElement("img");
     GITHUB.src = logo_GITHUB;
     logo.appendChild(GITHUB);
