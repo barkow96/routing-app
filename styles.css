@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    user-select: none;
+
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main {
+    text-align: center;
+}
+
+#main > h1 {
+    font-size: 80px;
+    color: red;
+}
+
+.site {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.site > a {
+    color: red;
+}
+
+.nav {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    color: red;
+}
+
+.navButton {
+    margin: 20px;
+    padding: 5px;
+    
+    font-size: 10px;
+    
+
+    background-color: red;
+    border: 1px red solid;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.navButton:hover {
+    font-weight: bold;
+    font-size: 12px;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family:"digital-clock-font";
+    src: url("/fonts/digital-7.regular.ttf");
+}
+
+body {
+    overflow: hidden;
+
+    height: 100%; 
+
+    color: white;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    
+    height: 60%;
+    width: 100%;
+}
+
+#timerFormat {
+    font-size: 35px;
+}
+
+#timer {
+    font-family: "digital-clock-font";
+    font-size: 100px;
+    font-weight: bold;    
+}
