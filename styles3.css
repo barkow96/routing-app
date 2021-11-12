@@ -1,8 +1,3 @@
-@font-face {
-    font-family:"digital-clock-font";
-    src: url("/fonts/digital-7.regular.ttf");
-}
-
 body {
     overflow: hidden;
 
@@ -24,7 +19,6 @@ body {
 }
 
 #timer {
-    font-family: "digital-clock-font";
     font-size: 100px;
     font-weight: bold;    
 }
